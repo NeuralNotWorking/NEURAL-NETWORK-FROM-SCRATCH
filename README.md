@@ -15,7 +15,7 @@ The network was initialised with 4 layers, with first three having ReLu as activ
 7 is output dimension instead of 10 because the data only had wine qualities from 3-9. Its called a ~~poetic~~ coder's license. Sorry for the bad joke. 
 
 
-I was trained for 100 epochs, with a learning-rate of 0.001. Accuracy achieved - 91.19%
+It was trained for 100 epochs, with a learning-rate of 0.001. Accuracy achieved - 91.19%
 ![WhatsApp Image 2025-06-18 at 00 15 48_a1ac22c0](https://github.com/user-attachments/assets/a264e7fc-73cc-43ac-a043-ff3e4b8073f3)
 ![WhatsApp Image 2025-06-18 at 00 33 03_036fd26e](https://github.com/user-attachments/assets/833ffb15-fa94-494c-aa4c-fe147289509d)
 
