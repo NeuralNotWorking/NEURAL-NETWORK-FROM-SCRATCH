@@ -1,0 +1,31 @@
+X: (batch_size, m) - each row is one training example
+
+W: (m, n) - input features × output neurons
+
+b: (n,) or (1, n) - bias vector
+
+Forward Computations:
+
+z = X @ W + b: (batch_size, m) @ (m, n) = (batch_size, n)
+
+a = f(z): (batch_size, n) - activations
+
+Backward Pass Dimensions
+Gradient Flow:
+
+delta (δ): (batch_size, n) - error signal for current layer
+
+dW = X.T @ delta: (m, batch_size) @ (batch_size, n) = (m, n)
+
+db = sum(delta, axis=0): (n,) - sum across batch dimension
+
+Error Propagation:
+
+delta_prev = delta @ W.T: (batch_size, n) @ (n, m) = (batch_size, m)
+
+Momentum Vectors
+v_w: (m, n) - same shape as W
+
+v_b: (n,) - same shape as b
+
+Updated Layer Structure
