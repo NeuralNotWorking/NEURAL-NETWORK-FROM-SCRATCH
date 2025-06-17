@@ -1,7 +1,7 @@
 # NEURAL-NETWORK-FROM-SCRATCH
 A dream of every coder, to create your own Neural Network by yourselves. I lived mine. 
 
-This is an implementation of a Neural Network from scratch, with only numpy used. Other functions including optimizer is implemented. 
+This is an implementation of a Neural Network from scratch, with only numpy used. Other functions including optimizer are implemented. 
 All the utility functions are in utils file.
 
 I learnt everything from a pdf I got generated from perplexity. It covers all the theory. Attached. 
