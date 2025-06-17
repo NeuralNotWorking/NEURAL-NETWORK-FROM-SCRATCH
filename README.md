@@ -11,7 +11,7 @@ The model was used on a dataset of wines with their chemical composition and a q
 The network was initialised with 4 layers, with first three having ReLu as activating function, to take input as 11 attributes of the wine and output a one-hot encode version of the quality. 
 
 ![image](https://github.com/user-attachments/assets/9ca01ae3-cc5f-4d3c-a7ef-8452f0b1d8bd)
-7 is output dimension instead of 10 because the data only had wine qualities from 3-9. Its called a '~~poetic~~' coder's license. Sorry for the bad joke. 
+7 is output dimension instead of 10 because the data only had wine qualities from 3-9. Its called a ~~poetic~~ coder's license. Sorry for the bad joke. 
 
 
 I was trained for 100 epochs, with a learning-rate of 0.001. Accuracy achieved - 91.19%
